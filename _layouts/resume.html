@@ -32,22 +32,17 @@
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
-          {% include icon-links.html %}
+          
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+          <p>Hello!. My name is Viet</p>
+          <p>I began my journey as a macOS developer in 2013 before transitioning seamlessly into the automotive engineering sector in 2016. With knowledge in macOS development, I quickly adapted my expertise to the dynamic challenges of automotive software engineering, where I have since excelled</p>
+          <p>In addition to my technical skills, I has three years of experience in leadership and management roles, overseeing teams of up to 20 members. Throughout my tenure, I have fostered environments of collaboration and innovation, driving both technical excellence and team cohesion. My ability to navigate complex projects and guide teams to success has been integral to achieving organizational objectives. As I continue to evolve in my career, I am eager to leverage my diverse skill set and management experience to contribute to innovative projects and drive impactful outcomes.</p>
+          <p><b>Visit me through these platforms if you want to know more about me.<b/></p>
         </div>
-<!--
-        {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
--->
       </header>
-
+      {% include icon-links.html %}
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
