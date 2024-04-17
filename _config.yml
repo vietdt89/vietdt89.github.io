@@ -51,11 +51,11 @@ resume_section_associations:    false
 resume_social_links:
   #resume_github_url:            "https://github.com/jglovier/resume-template"
   #resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://vietdt89.hashnode.dev/"
+  #resume_dribbble_url:          "https://vietdt89.hashnode.dev/"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/daotuanviet/"
   #resume_instagram_url:         "https://vietdt89.hashnode.dev/"
-  resume_website_url:           "https://engineeringmanagement.hashnode.dev/"
+  resume_website_url:           "https://viettuandao.substack.com/"
   #resume_medium_url:            "https://dev.to/vietdt89"
 resume_print_social_links:      true
 
