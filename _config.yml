@@ -12,7 +12,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Dao Tuan Viet"
-resume_title:                   "Automotive Software Engineer"
+resume_title:                   "Embedded Software Engineer"
 
 # used for the contact button in _layouts/resume.html
 #resume_contact_email:           ""
